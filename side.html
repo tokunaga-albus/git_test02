@@ -1,0 +1,82 @@
+      <div id="side">
+        <div class="side_time">
+          <p class="btn"><a href="timetable.php">大橋駅時刻表はこちら</a></p>
+          <div class="side_time_inner cf">
+            <p class="ttl">現在の時刻</p>
+            <p class="time eng02 now_time"><span><{$time1}></span><{$time2}></p>
+          </div>
+        </div>
+       <!-- <p class="side_bnr"><a href="coupon_list.php"><img src="images/side_bnr01.jpg" alt="OASIS COUPON"/></a></p>-->
+        <div class="side_search">
+          <p class="ttl_l"><span class="eng03">Shop Search</span></p>
+          <div class="side_search_inner">
+            <p class="ttl">五十音から探す</p>
+            <div class="side_search_syll side_search_cont cf"> <span><a href="shop_result.php?mode=name&id=1">あ行</a></span><span><a href="shop_result.php?mode=name&id=2">か行</a></span><span><a href="shop_result.php?mode=name&id=3">さ行</a></span><span><a href="shop_result.php?mode=name&id=4">た行</a></span><span><a href="shop_result.php?mode=name&id=5">な行</a></span><span><a href="shop_result.php?mode=name&id=6">は行</a></span><span><a href="shop_result.php?mode=name&id=7">ま行</a></span><span><a href="shop_result.php?mode=name&id=8">や行</a></span><span><a href="shop_result.php?mode=name&id=9">ら行</a></span><span><a href="shop_result.php?mode=name&id=10">わ行</a></span> </div>
+            <p class="ttl">カテゴリーから探す</p>
+            <div class="side_search_cat side_search_cont cf">
+              <ul class="cf">
+                <li class="ssc01"> <a href="shop_result.php?mode=category&id=1"><img src="images/side_cat_icon01.png" alt="カフェ・ ベーカリー"/><br>
+                  カフェ・ <br />ベーカリー</a> </li>
+                <li class="ssc02"> <a href="shop_result.php?mode=category&id=2"><img src="images/side_cat_icon02.png" alt="必要品・医療・化粧品"/><br>
+                  医療・化粧品</a> </li>
+                <li class="ssc03"> <a href="shop_result.php?mode=category&id=3"><img src="images/side_cat_icon03.png" alt="生活雑貨"/><br>
+                  生活雑貨</a> </li>
+                <li class="ssc04"> <a href="shop_result.php?mode=category&id=4"><img src="images/side_cat_icon04.png" alt="フード・グルメ"/><br>
+                  フード・ <br />グルメ</a> </li>
+               <li class="ssc05"> <a href="shop_result.php?mode=category&id=5"><img src="images/side_cat_icon06.png" alt="ファッション"/><br>
+                  ファッション</a> </li>
+               <li class="ssc06"> <a href="shop_result.php?mode=category&id=6"><img src="images/side_cat_icon05.png" alt="ファッション雑貨"/><br>
+                  ファッション雑貨</a> </li>
+                <li class="ssc07"> <a href="shop_result.php?mode=category&id=7"><img src="images/side_cat_icon07.png" alt="文具・書籍"/><br>
+                  文具・書籍</a> </li>
+                <!--<li class="ssc08"> <a href="shop_result.php?mode=category&id=8"><img src="images/side_cat_icon08.png" alt="ライフスタイル"/><br>
+                  ライフ<br>
+                  スタイル</a> </li>-->
+                <li class="ssc09"> <a href="shop_result.php?mode=category&id=9"><img src="images/side_cat_icon09.png" alt="サービス・その他"/><br>
+                  サービス・<br>
+                  その他</a> </li>
+              </ul>
+            </div>
+            <p class="ttl">キーワードから探す</p>
+            <div class="side_search_word side_search_cont cf">
+              <form action="shop_result.php" name="sideForm1" method="post">
+                <p class="search_area">
+                  <input type="text" maxlength="20" size="30" name="keywords" placeholder="キーワードを入れてください。" />
+                </p>
+                <p class="btn">
+                  <input type="hidden" name="mode" value="keyword"/>
+                  <input type="submit" value="検索" class="serchBtn"/>
+                </p>
+              </form>
+            </div>
+            <p class="ttl">フロアマップから探す</p>
+              <div class="side_search_map side_search_cont cf">
+              <span><a href="shop_result.php?mode=floor&id=1">B1F 北</a></span><span><a href="shop_result.php?mode=floor&id=4">B1F 南</a></span><span><a href="shop_result.php?mode=floor&id=2">1F 北</a></span><span><a href="shop_result.php?mode=floor&id=5">1F 南</a></span><span><a href="shop_result.php?mode=floor&id=3">2F 北</a></span><span><a href="shop_result.php?mode=floor&id=6">2F 南</a></span><span><a href="map.php" class="btn">フロアMAP</a></span>
+              </div>
+          </div>
+        </div>        <p class="side_bnr02"><a href="https://line.me/R/ti/p/JGfXYoxPoE" target="_blank"><img src="images/side_bnr02.jpg" alt="LINE@はじめました！"/></a></p>
+        <p class="side_bnr02"><a href="style.php"><img src="images/side_bnr03.jpg" alt="OHASHI STYLE"/></a></p>
+        <!--<p class="side_bnr02"><img src="images/side_bnr07.jpg" alt="文具・書籍"/></p>-->
+<!-- <p class="side_bnr02"><a href="http://cms.mechao.tv/nishitetsustore/stores-flyer-r-imglist?s=8792" target="_blank"><img src="images/side_bnr04.jpg" alt="にしてつストア"/></a></p>-->
+        <p class="side_bnr02"><a href="https://www.nimoca.jp/" target="_blank"><img src="images/side_bnr05.jpg" alt="nimoca"/></a></p>
+        <p class="side_bnr02"><a href="recruit.php"><img src="images/side_bnr06.jpg" alt="求人募集"/></a></p>
+<!--        <p class="side_bnr02"><a href="map2.php" target="_blank"><img src="images/side_bnr08.jpg" alt="高宮西鉄名店街<"/></a></p>
+-->      </div>
+
+<script>
+var getNowTime = function(){
+    var postData = {
+            type : "POST",
+            dataType : "html",
+            processData : false,
+            contentType : false
+          };
+
+      $.ajax(
+         "ajax/side.php", postData
+      ).done(function( text ){
+  	    $( ".now_time").html(text);
+	  });
+  }
+  setInterval(getNowTime, 1000);
+</script>
